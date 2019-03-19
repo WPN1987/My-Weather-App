@@ -1,0 +1,82 @@
+body {
+    margin: 0px;  
+} 
+
+.main { 
+height: 100vh;
+width: 100%;
+background-image: 
+url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/H0MA-uKSipsekm5s/simple-natural-background-with-closeup-of-fresh-green-grass-field-and-blue-sky-with-blurred-clouds-at-spring-day-4k_ht5dis7fl_thumbnail-full01.png);
+align-items: center;
+display: grid;
+
+grid-template-columns: 2.5fr 5fr 2.5fr;
+grid-template-rows: 2fr 4fr 1.5fr 1.5fr;
+grid-template-areas:
+
+    "title title title"
+    "... form ..." 
+    "one one one"
+    "two two two";
+
+gap:0px; 
+
+}
+#title {
+    margin: 50px;
+    grid-area: title; 
+    font-size: 75px; 
+    display: flex;
+
+    justify-content: center; 
+    align-items: center;
+
+}
+.form {
+    grid-area: form;
+    margin: auto;
+    justify-content: center;
+ 
+
+gap:0px; 
+}
+
+#weatherInput {
+    padding: 25px;
+    height: 60px;
+    width:450px;
+    border: 2px solid black; 
+    border-radius: 10px 10px 10px 10px; 
+    font-size: 25px; 
+}
+
+#submitButton {
+    margin: 30px 125px; 
+    height: 75px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px; 
+    color: black; 
+    background-color: white; 
+    font-size: 15px;
+} 
+
+#one {
+    grid-area: one;
+    font-size: 40px;
+    display: flex;
+
+    justify-content: center; 
+    align-items: center;
+
+} 
+
+#two {
+    grid-area: two;
+    font-size: 40px;
+    display: flex;
+
+    justify-content: center; 
+    align-items: center;
+
+}
